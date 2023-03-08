@@ -2,94 +2,121 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Richárd Barabási
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1996.05.11.
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Hungarian, English, German
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Project Leader
+      institution: Bosch Hungary, Budapest, Hungary
+      year: 2022.09. - 2022.12.
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Learned using a lightweight electromagnetics simulator <a href="https://www.femm.info/wiki/HomePage">FEMM</a>.
+        - Had a taste of big company life and felt too slow for me.
+
+    - title: Mechatronics Engineer
+      institution: European Knowledge Centre, Budapest, Hungary
+      year: 2021.05. - 2022.09.
+      description:
+        - title: Lead the development of a mechatronics system for a new product.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designed and manufactured a prototype shell.
+            - Designed and manufactured a prototype PCB.
+            - Developed and tested the software.
+        - title: Got really familiar with <a href="https://www.altium.com/altium-designer">Altium Designer</a> software.
+          contents:
+            - New A365 cloud functionality.
+            - New cloud library functionality.
+            - Overall deepened my knowledge of the software.
+        - Accumulated many hours in <a href="https://www.solidworks.com/">SOLIDWORKS</a>.
+        - title: Worked with 3D printers
+          contents:
+            - Manufacturing
+            - Mainenance
+            - Upgrades
+
+    - title: Mechatronics Engineer
+      institution: Sagax Communications, Budapest, Hungary
+      year: 2019.01. - 2021.05.
       description:
-        - Description 1.
-        - Description 2.
+        - Started using <a href="https://www.altium.com/altium-designer">Altium Designer</a> software.
+        - Started using <a href="https://code.visualstudio.com/">VS Code</a> as main embedded IDE.
+        - Accumulated many hours in <a href="https://www.autodesk.com/products/inventor/overview?term=1-YEAR&tab=subscription">Inventor</a>.
+        - Accumulated many hours in <a href="https://visualstudio.microsoft.com/">Visual Studio</a> using C# and <a href="https://learn.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-7.0">Forms</a> framework.
+        - title: Got familiar with RF terminology, basics and lab equipment.
+          contents:
+            - Spectrum analyzer
+            - Signal generator
+            - Digital 4CH and analog oscilloscopes
+        - title: Major role in the development of a new product.
+          contents:
+            - Made system and mechanical drawings for documentation.
+            - Designed and manufactured small control electronics.
+            - Developed and tested control software.
+            - Tested the software running on the product.
+            - Kept contact with the customer and took part in the design reviews.
+            - Was on site for the installation of the product.
+        - Became intermediate user in Altium Designer with a developement of a 4 layer 4CH RF synthesizer board with integrated power supply, control electronics and a 1-8GHz output range. (RF circuitry was designed by an RF expert colleague.)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Application Engineer
+      institution: Sagax Communications, Budapest, Hungary
+      year: 2018.05. - 2018.12.
       description:
+        - Was hired as an application engineer, but was soon promoted to a mechatronics engineer.
+        - Put together an automated stress test equipment for testing the products using arduinos with code written in <a href="https://www.arduino.cc/en/software">Arduino IDE</a>.
+        - Designed and manufactured a prototype control electronics for the product in development with <a href="https://www.autodesk.com/products/eagle/overview?term=1-YEAR&tab=subscription">Eagle</a>.
+        - title: Learned hand soldering and rework techniques.
+          contents:
+            - Used a good quality <a href="https://store.metcal.com/en-ap/shop/soldering-desoldering/soldering-desoldering-systems/mx-series/MX-500S">soldering iron</a>.
+            - Smallest component was 0402.
+            - Gained experience with hot air rework.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Engineering Assistant
+      institution: Morgan Advanced Materials, Budapest, Hungary
+      year: 2017.06. - 2017.09.
+      description:
+        - Was a summer job, took my freshly acquired knowledge of technical drawing and applied to work here.
+        - Learned to use <a href="https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription">AutoCAD</a> to draw technical drawings of carbon brushes after costumers' requests.
+
+- title: Education
+  type: time_table
+  contents:
+  
+    - title: Mechatronical Engineering BSc
+      institution: Technical University of Budapest, Budapest, Hungary
+      year: 2016 - 2020
+      description:
+        - Started as a mechanical engineering student, but switched to mechatronics after the first year.
+        - Started in the german language program, but lost the opportunity due to the change to mechatronics.
+        - Majored in manufacturing technology
+        - title: Mentionable courses aside from main mechatronics
+          contents:
+            - Material structure and technology of polymers
+            - Control theory
+            - Basics of AI technology
+            - Welding after school exercise
+
+    - title: High School
+      institution: German Nationality Highschool, Budapest, Hungary
+      year: 2011 - 2016
+      description:
+        - Really got into physics and math thanks to great teachers.
+        - Strong base in german language as 90% of the classes were taught in german.
+        - Also made an english language exam and got a B2.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://github.com/Kolompos/dimensions-open">Dimensions</a>
+      year: 2023.01. - now
+      description:
+        - An educational app made in <a href="https://flutter.dev/">Flutter</a> for learning about the quantities and units of measurement.
+        - Techincally not open yet, but will be releasing as soon as I am confident enough in the quality.
+        - Will be released on Android, hopefully iOS and web as well.
 
 - title: Other Interests
   type: list

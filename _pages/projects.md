@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+title: Projects
+description: A growing collection of my cool professional and hobby projects.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [work, productive, fun]
 horizontal: false
 ---
 
@@ -55,4 +55,13 @@ horizontal: false
   </div>
   {%- endif -%}
 {%- endif -%}
+</div>
+<br><br><br><br><br>
+
+<div class="projects">
+  {%- for project in site.projects -%}
+    {% unless project.category %}
+      {% include projects.html %}
+    {% endunless %}
+  {%- endfor %}
 </div>
